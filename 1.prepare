@@ -1,0 +1,5 @@
+vgcfgbackup
+cp /etc/lvm/backup/pve data.txt
+php -q dump.php > dump.txt
+cp dump.txt rearrange.txt
+
